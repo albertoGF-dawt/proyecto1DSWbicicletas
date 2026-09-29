@@ -9,7 +9,7 @@ export class BrandService {
         return await Brand.findByPk(id);
     }
 
-    async create(data: { name: string }) {
+    async create(ddata: { name: string }) {
         return await Brand.create(data);
     }
 

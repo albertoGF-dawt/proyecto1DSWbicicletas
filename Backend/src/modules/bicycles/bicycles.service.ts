@@ -1,12 +1,32 @@
 import { bicycle } from "./bicycles.model";
+import { Brand } from "../brands/brand.model";
 
 export class bicycleService {
     static async findAll() {
-        return bicycle.findAll();
+        return bicycle.findAll({
+            attributes: { exclude: ["brandId"] },
+            include: [
+                {
+                    model: Brand,
+                    as: "brand"
+                },
+            ]
+        });
     }
 
     static async findById(id: number) {
         return bicycle.findByPk(id);
+    }
+
+    static async findEagerlyById(id: number) {
+        return bicycle.findByPk(id, {
+            include: [
+                {
+                    model: Brand,
+                    as: "brand",
+                },
+            ],
+        });
     }
 
     static async create(data: {

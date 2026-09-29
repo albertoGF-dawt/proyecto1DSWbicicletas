@@ -20,7 +20,7 @@ export class bicycleController {
     ) {
         try {
             const id = Number(req.params.id);
-            const bicycle = await bicycleService.findById(id);
+            const bicycle = await bicycleService.findEagerlyById(id);
             if (!bicycle) {
                 res.status(404).json({
                     message: "bicycleo no encontrado",
