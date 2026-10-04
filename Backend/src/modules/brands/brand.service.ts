@@ -10,7 +10,7 @@ export class BrandService {
     }
 
     async create(ddata: { name: string }) {
-        return await Brand.create(data);
+        return await Brand.create(ddata);
     }
 
     async update(id: number, data: { name?: string }) {
