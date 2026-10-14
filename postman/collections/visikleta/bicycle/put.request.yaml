@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/bicycles/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"brand\": 2,\r
+
+    \  \"model\": \"edit\",\r
+
+    \  \"description\": \"\",\r
+
+    \  \"price\": 899.99,\r
+
+    \  \"stock\": 15\r
+
+    }"
+order: 3555910990991205

@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/brands/3
+method: DELETE
+order: 4408670333027801

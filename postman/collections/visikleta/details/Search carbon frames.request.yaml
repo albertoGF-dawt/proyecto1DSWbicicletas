@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/bicycle-details/titanium
+method: GET
+order: 4500399572750504

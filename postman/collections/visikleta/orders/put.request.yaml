@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/api/orders/2
+method: PUT
+body:
+  type: json
+  content: "{\r\n  \"status\": \"shipped\"\r\n}"
+order: 3526143537254125

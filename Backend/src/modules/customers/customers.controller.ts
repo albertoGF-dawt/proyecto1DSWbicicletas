@@ -1,5 +1,5 @@
 // customers.controller.ts
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { CustomerService } from "./customers.service";
 
 export class CustomerController {

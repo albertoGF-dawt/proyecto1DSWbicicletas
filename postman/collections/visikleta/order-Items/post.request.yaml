@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/api/order-Items
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"orderId\": 1,\r
+
+    \  \"bicycleId\": 2,\r
+
+    \  \"quantity\": 2,\r
+
+    \  \"unitPrice\": 349.99\r
+
+    }"
+order: 3209198850748313

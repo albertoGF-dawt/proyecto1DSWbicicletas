@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/bicycle-details
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"bicycleId\": 1 ,\r
+
+    \    \"frameMaterial\": \"Aluminium\" ,\r
+
+    \    \"wheelSize\": 12,\r
+
+    \    \"weight\": 19,\r
+
+    \    \"suspension\": 19\r
+
+    }"
+order: 2459307762339787

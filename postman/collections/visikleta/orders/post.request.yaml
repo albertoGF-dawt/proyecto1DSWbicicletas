@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/orders
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"customerId\": 2,\r
+
+    \  \"status\": \"pending\"\r
+
+    }"
+order: 2851142505931924

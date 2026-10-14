@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/customers/Ana García/orders
+method: GET
+order: 4115120025377406

@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/customers/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Ana Garcíaedit\",\r
+
+    \  \"email\": \"ana.garciaedit@example.com\"\r
+
+    }"
+order: 2105775046842562

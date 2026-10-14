@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/bicycles/eager/1
+method: GET
+order: 4414867036930578
